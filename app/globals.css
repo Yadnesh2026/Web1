@@ -35,3 +35,15 @@ a:hover,.outline-button:hover,.solid-button:hover{transition:.2s}
 .cover-inner .ganpati-cover-image{width:126px;height:126px;object-fit:contain;mix-blend-mode:multiply;margin:3px auto 5px}
 @media(max-width:760px){.cover-inner .ganpati-cover-image{width:116px;height:116px}}
 @media(max-width:760px){.cover-screen{width:100vw;left:0;right:auto;padding:12px;box-sizing:border-box;place-items:center;overflow:hidden}.cover-paper{width:calc(100vw - 32px);max-width:460px;height:min(690px,calc(100dvh - 24px));min-height:min(530px,calc(100dvh - 24px));margin:0 auto;justify-self:center}.cover-inner{width:100%;min-width:0}}
+
+/* Refined venue panel: soft parchment, devotional artwork, and a calmer balance. */
+.event-venue-art{background:#f7eedb;color:#806b48;border-right:1px solid #e7d6af;padding:25px 30px;align-items:center}
+.event-venue-art:before{inset:12px;border-color:#c9a45c66}
+.event-venue-art:after{content:none}
+.event-venue-art .event-index{position:relative;z-index:1;color:#8a7350;text-align:center;font-size:9px;letter-spacing:2.2px}
+.event-ganpati-wrap{position:relative;z-index:1;flex:1;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.event-ganpati-image{display:block;width:clamp(170px,21vw,235px);height:auto;object-fit:contain;mix-blend-mode:multiply}
+.event-ganpati-wrap .ornament{width:150px;margin:0 auto;color:#c9a45c}
+.event-panel-label{margin:2px 0 0;color:#775c39;font:600 10px var(--sans);letter-spacing:1.7px;text-align:center}
+.event-venue-art .event-panel-bottom{padding-top:10px;color:#8a7350}
+@media(max-width:760px){.event-venue-art{min-height:285px;padding:22px;border-right:0;border-bottom:1px solid #e7d6af}.event-ganpati-image{width:145px;height:145px}.event-ganpati-wrap .ornament{width:125px}.event-panel-label{font-size:9px}}
