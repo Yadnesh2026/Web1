@@ -34,3 +34,4 @@ a:hover,.outline-button:hover,.solid-button:hover{transition:.2s}
 .hero-topline span:first-child{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap}
 .cover-inner .ganpati-cover-image{width:126px;height:126px;object-fit:contain;mix-blend-mode:multiply;margin:3px auto 5px}
 @media(max-width:760px){.cover-inner .ganpati-cover-image{width:116px;height:116px}}
+@media(max-width:760px){.cover-screen{width:100vw;left:0;right:auto;padding:12px;box-sizing:border-box;place-items:center;overflow:hidden}.cover-paper{width:calc(100vw - 32px);max-width:460px;height:min(690px,calc(100dvh - 24px));min-height:min(530px,calc(100dvh - 24px));margin:0 auto;justify-self:center}.cover-inner{width:100%;min-width:0}}
